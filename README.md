@@ -1,28 +1,28 @@
 # Nmax
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/nmax`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem find digits in file and print n maximum from ones
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Unfortunately this gem is not publicated on rubygems.org so you should use `specific_install` gem.
 
-```ruby
-gem 'nmax'
-```
+First of all install 
 
-And then execute:
+    $ gem install specific_install
 
-    $ bundle
+And then install this gem:
 
-Or install it yourself as:
-
-    $ gem install nmax
+    $ gem specific_install https://github.com/mpestov/nmax
 
 ## Usage
 
-TODO: Write usage instructions here
+After gem installed you can use it from command line.
+
+    $ nmax 2 < some_file.txt
+    
+To print all digits in descending order from file you can omit `n`
+
+    $ nmax < some_file.txt
 
 ## Development
 
